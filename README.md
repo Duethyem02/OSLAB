@@ -1,7 +1,7 @@
 ## OSLAB EXPERIMENTS
 
 #### Best fit implementation
-'''
+```
 Enter number of processes:4
 Enter size of each process:
 P[1]:212
@@ -21,4 +21,4 @@ B[2]    500     2       417     Allocated
 B[3]    200     3       112     Allocated
 B[4]    300     1       212     Allocated
 B[5]    600     4       426     Allocated
-'''
+```
