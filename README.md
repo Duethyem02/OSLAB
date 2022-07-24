@@ -22,3 +22,22 @@ B[3]    200     3       112     Allocated
 B[4]    300     1       212     Allocated
 B[5]    600     4       426     Allocated
 ```
+
+#### First fit implementation
+```
+Enter number of processes:3
+Enter size of each process:
+P[1]:12
+P[2]:10
+P[3]:56
+Enter number of blocks:3
+Enter size of each block:
+B[1]:8
+B[2]:10
+B[3]:12
+Block Size Process Size Status
+B[1] 8 0 0 Not Allocated
+B[2] 10 2 10 Allocated
+B[3] 12 1 12 Allocated
+
+```
