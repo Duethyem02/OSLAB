@@ -35,9 +35,9 @@ Enter size of each block:
 B[1]:8
 B[2]:10
 B[3]:12
-Block Size Process Size Status
-B[1] 8 0 0 Not Allocated
-B[2] 10 2 10 Allocated
-B[3] 12 1 12 Allocated
+Block Size Process Size  Status
+B[1]   8    0       0  Not Allocated
+B[2]  10    2      10  Allocated
+B[3]  12    1      12  Allocated
 
 ```
