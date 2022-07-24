@@ -1,6 +1,7 @@
 ## OSLAB EXPERIMENTS
 
 #### Best fit implementation
+
 ```
 Enter number of processes:4
 Enter size of each process:
@@ -24,6 +25,7 @@ B[5]    600     4       426     Allocated
 ```
 
 #### First fit implementation
+
 ```
 Enter number of processes:3
 Enter size of each process:
@@ -43,6 +45,7 @@ B[3]  12    1      12  Allocated
 ```
 
 #### Interprocess Communication implementation
+
 ```
 Key of shared memory is 32780
 Process is attached at 0x7f2dc8269000
