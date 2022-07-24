@@ -41,3 +41,16 @@ B[2]  10    2      10  Allocated
 B[3]  12    1      12  Allocated
 
 ```
+
+#### Interprocess Communication implementation
+```
+Key of shared memory is 32780
+Process is attached at 0x7f2dc8269000
+search 4
+Value shared is search 4
+```
+```
+Key of shared memory is 32780
+Process is attached at 0x7f4fa4ef5000
+Value read from shared is search 4
+```
