@@ -81,3 +81,110 @@ B[3]    200     0       0       Not Allocated
 B[4]    300     3       112     Allocated
 B[5]    600     1       212     Allocated
 ```
+
+#### Banker's algorithm implementation
+
+```
+Enter number of processes:5
+Enter number of resources:3
+Enter max.number of resources required for each process:
+P[1]:
+        R[1]:7
+        R[2]:5
+        R[3]:3
+P[2]:
+        R[1]:3
+        R[2]:2
+        R[3]:2
+P[3]:
+        R[1]:9
+        R[2]:0
+        R[3]:2
+P[4]:
+        R[1]:2
+        R[2]:2
+        R[3]:2
+P[5]:
+        R[1]:4
+        R[2]:3
+        R[3]:3
+Enter number of  resources allocated for each process:
+P[1]:
+        R[1]:0
+        R[2]:1
+        R[3]:0
+P[2]:
+        R[1]:2
+        R[2]:0
+        R[3]:0
+P[3]:
+        R[1]:3
+        R[2]:0
+        R[3]:2
+P[4]:
+        R[1]:2
+        R[2]:1
+        R[3]:1
+P[5]:
+        R[1]:0
+        R[2]:0
+        R[3]:2
+Enter number of  available resources:
+3
+3
+2
+P[2]    P[4]    P[1]    P[3]    P[5]
+Safe
+```
+```
+Enter number of processes:5
+Enter number of resources:3
+Enter max.number of resources required for each process:
+P[1]:
+        R[1]:7
+        R[2]:5
+        R[3]:3
+P[2]:
+        R[1]:3
+        R[2]:2
+        R[3]:2
+P[3]:
+        R[1]:9
+        R[2]:0
+        R[3]:2
+P[4]:
+        R[1]:2
+        R[2]:2
+        R[3]:2
+P[5]:
+        R[1]:4
+        R[2]:3
+        R[3]:3
+Enter number of  resources allocated for each process:
+P[1]:
+        R[1]:0
+        R[2]:1
+        R[3]:0
+P[2]:
+        R[1]:2
+        R[2]:0
+        R[3]:0
+P[3]:
+        R[1]:3
+        R[2]:0
+        R[3]:2
+P[4]:
+        R[1]:2
+        R[2]:1
+        R[3]:1
+P[5]:
+        R[1]:3
+        R[2]:3
+        R[3]:2
+Enter number of  available resources:
+0
+0
+2
+
+ Not safe
+```
