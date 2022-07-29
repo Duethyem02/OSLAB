@@ -43,7 +43,6 @@ int main()
 		for(int j=1;j<=c;j++)
 		{
 			need[i][j]=max[i][j]-allo[i][j];
-			printf("%d\n",need[i][j]);
 		}
 	} 
 
