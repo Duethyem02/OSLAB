@@ -28,7 +28,7 @@ for (int i=1;i<=np;i++)
 {
 for(int j=1;j<=nb;j++)
 {
- if(ap[i][0]<=ab[j][0] && ap[i][1]!=1 )
+ if(ap[i][0]<=ab[j][0] && ap[i][1]!=1 && ab[j][1]==0 )
  {
   ab[j][1]=i;
   ab[j][2]=ap[i][0];
