@@ -188,3 +188,29 @@ Enter number of  available resources:
 
  Not safe
 ```
+
+#### SJF implementation
+
+```
+Enter no.of processes:4
+enter at and bt of each process:
+ID:2
+A.T:2
+B.T:1
+ID:3
+A.T:3
+B.T:3
+ID:1
+A.T:1
+B.T:8
+ID:0
+A.T:0
+B.T:6
+Process A.T     B.T     T.A.T   W.T
+0       0       6       6       0
+2       2       1       5       4
+3       3       3       7       4
+1       1       8       17      9
+Avg.TAT:8.750000
+Avg.WT:4.250000
+```
