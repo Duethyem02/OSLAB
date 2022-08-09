@@ -214,3 +214,38 @@ Process A.T     B.T     T.A.T   W.T
 Avg.TAT:8.750000
 Avg.WT:4.250000
 ```
+
+#### Priority Scheduling
+
+```
+Enter no.of processes:5
+enter at and bt of each process:
+ID:1
+A.T:1
+B.T:8
+priority:2
+ID:0
+A.T:0
+B.T:6
+priority:5
+ID:4
+A.T:4
+B.T:4
+priority:4
+ID:3
+A.T:3
+B.T:3
+priority:3
+ID:2
+A.T:2
+B.T:1
+priority:1
+Process A.T     B.T     P.R     T.A.T   W.T
+0       0       6       5       6       0
+2       2       1       1       5       4
+1       1       8       2       14      6
+3       3       3       3       15      12
+4       4       4       4       18      14
+Avg.TAT:11.600000
+Avg.WT:7.200000
+```
