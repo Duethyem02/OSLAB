@@ -249,3 +249,33 @@ Process A.T     B.T     P.R     T.A.T   W.T
 Avg.TAT:11.600000
 Avg.WT:7.200000
 ```
+
+#### FIFO Page Replacement Algorithm
+
+```
+Enter number of pages:20
+Enter page numbers:
+7 0 1 2 0 3 0 4 2 3 0 3 2 1 2 0 1 7 0 1
+Enter number of frames:3
+7       7 -1 -1
+0       7 0 -1
+1       7 0 1
+2       2 0 1
+0
+3       2 3 1
+0       2 3 0
+4       4 3 0
+2       4 2 0
+3       4 2 3
+0       0 2 3
+3
+2
+1       0 1 3
+2       0 1 2
+0
+1
+7       7 1 2
+0       7 0 2
+1       7 0 1
+Page Fault is 15
+```
