@@ -309,3 +309,13 @@ Enter number of frames:3
 1
 Page Fault is 12
 ```
+
+#### FCFS Disk scheduling 
+
+```
+Enter no.of request:8
+Enter request sequence:
+95 180 34 119 11 123 62 64
+Enter initial head position:50
+Total head movement:644
+```
