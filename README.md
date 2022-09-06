@@ -310,6 +310,31 @@ Enter number of frames:3
 Page Fault is 12
 ```
 
+#### LFU Page Replacement Algorithm
+
+```
+Enter number of pages:15
+Enter page numbers:
+7 0 1 2 0 3 0 4 2 3 0 3 2 1 2
+Enter number of frames:3
+7       7 -1 -1
+0       7 0 -1
+1       7 0 1
+2       2 0 1
+0
+3       2 0 3
+0
+4       4 0 3
+2       4 0 2
+3       3 0 2
+0
+3
+2
+1       3 0 1
+2       3 0 2
+Page Fault is 10
+```
+
 #### FCFS Disk scheduling 
 
 ```
