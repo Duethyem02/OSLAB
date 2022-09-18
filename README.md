@@ -344,3 +344,15 @@ Enter request sequence:
 Enter initial head position:50
 Total head movement:644
 ```
+
+#### SCAN Disk scheduling 
+
+```
+Enter no.of request:5
+Enter request sequence:
+20 89 130 45 180
+Enter initial head position:100
+Enter total disk size:200
+Enter head movement direction(low:0,high:1):0
+Total head movement:280
+```
