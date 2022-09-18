@@ -356,3 +356,15 @@ Enter total disk size:200
 Enter head movement direction(low:0,high:1):0
 Total head movement:280
 ```
+
+#### C-SCAN Disk scheduling 
+
+```
+Enter no.of request:5
+Enter request sequence:
+23 89 132 42 187
+Enter initial head position:100
+Enter total disk size:200
+Enter head movement direction(low:0,high:1):0
+Total head movement:366
+```
